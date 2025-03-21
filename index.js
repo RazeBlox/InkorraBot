@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = [
-  { name: "Diamonds✨ by Rihanna", type: ActivityType.Listening },
+  { name: "Diamonds✨ by Rihanna", type: ActivityType.Streaming, url: 'https://www.youtube.com/watch?v=lWA2pjMjpBs'},
 ];
 
 const statusTypes = ['online', 'dnd', 'idle'];
